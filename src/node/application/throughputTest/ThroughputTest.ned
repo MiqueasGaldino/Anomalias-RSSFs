@@ -33,6 +33,10 @@ simple ThroughputTest like node.application.iApplication {
 
 	double latencyHistogramMax = default (200);
 	int latencyHistogramBuckets = default (10);
+    int janela = default (10);
+
+    string cenario = default ("0");
+
 
  gates:
  	output toCommunicationModule;

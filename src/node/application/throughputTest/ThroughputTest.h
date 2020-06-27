@@ -33,6 +33,8 @@ class ThroughputTest: public VirtualApplication {
 	double packet_rate;
 	string recipientAddress;
 	double startupDelay;
+    int janela;
+    string cenario;
 
 	float packet_spacing;
 	int dataSN;
@@ -92,12 +94,9 @@ class ThroughputTest: public VirtualApplication {
 	double OptFLQE = 1;
 	double alpha_flqe = 0.6;
 	double ETX = 0;
+    
+  
 
-    double tempo_atual;
-    double tempo_no[55];
-    double proximo_tempo[55];
-    double contadorleitura[55];
-    double timer;
 
 
  protected:
@@ -106,6 +105,7 @@ class ThroughputTest: public VirtualApplication {
 	void handleRadioControlMessage(RadioControlMessage *);
 	void timerFiredCallback(int);
 	void sendAck(int);
+   
 	
 };
 
