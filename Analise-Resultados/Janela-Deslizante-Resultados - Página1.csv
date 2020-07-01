@@ -1,0 +1,10 @@
+Tecnica,Cenario,Janela,Precisao,Recall
+SVM,Cenario 3,Janela 10,97.547,21.307
+SVM,Cenario 3,Janela 50,98.101,21.294
+SVM,Cenario 3,Janela 100,98.242,24.711
+EE,Cenario 3,Janela 10,99.230,67.612
+EE,Cenario 3,Janela 50,99.278,56.733
+EE,Cenario 3,Janela 100,99.174,53.086
+LOF,Cenario 3,Janela 10,97.882,100
+LOF,Cenario 3,Janela 50,99.382,66.341
+LOF,Cenario 3,Janela 100,99.346,67.144
